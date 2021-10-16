@@ -1,0 +1,95 @@
+                /*****HEADER*****/
+                
+                .row>* {
+                    padding: 0px;
+                }
+                
+                ul {
+                    width: 100%;
+                    padding: 0px;
+                    visibility: hidden;
+                    list-style-type: none;
+                }
+                
+                .navbar {
+                    background-color: gray;
+                    border: black 2px solid;
+                }
+                
+                .navbar-brand {
+                    color: black;
+                    size: 2em;
+                }
+                
+                .navbar-toggler {
+                    border: black 2px solid;
+                    background-color: honeydew;
+                    visibility: hidden;
+                    margin: 10px 10px 0px 0px;
+                }
+                
+                #whole-screen {
+                    background-color: white;
+                    margin: 5px 0px 5px 0px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    padding-bottom: 0px;
+                }
+                /*****BODY********/
+                
+                h1 {
+                    text-align: center;
+                }
+                
+                .main {
+                    background-color: gray;
+                    border: black 2px solid;
+                    margin: 5px auto 5px;
+                    height: 200px;
+                    width: 360px;
+                    overflow: auto;
+                }
+                
+                .row {
+                    margin: 3px;
+                }
+                
+                .container {
+                    text-align: center;
+                }
+                
+                @media(max-width:1199px)and (min-width:768px) {
+                    #fish {
+                        width: 89%;
+                    }
+                }
+                
+                @media(max-width:992px)and (min-width:768px) {
+                    .col-md-6 {
+                        width: 45%;
+                        margin: 10px;
+                        margin: 5px auto 3px;
+                    }
+                    #fish {
+                        width: 95%;
+                    }
+                }
+                
+                @media(max-width: 768px) {
+                    .navbar-toggler {
+                        visibility: visible;
+                        justify-content: right;
+                    }
+                    ul {
+                        visibility: visible;
+                        width: 100%;
+                    }
+                    li {
+                        margin: 10px 0px 0px 0px;
+                        background-color: white;
+                        border-bottom: black 2px solid;
+                        width: 100%;
+                        padding: 0px;
+                        text-align: center;
+                    }
+                }

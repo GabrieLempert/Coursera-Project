@@ -1,0 +1,173 @@
+        * {
+        box-sizing: border-box;
+        font-family: ;
+    }
+    
+    h1 {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .row {
+        width: 100%;
+        height: 0;
+        padding: 2px;
+    }
+    
+    .container {
+        border: solid 4px black;
+        background: gray;
+        margin: 10px;
+        height: 180px;
+        font-size: 15px;
+    }
+    
+    #Beef {
+        float: right;
+        position: relative;
+        border: black solid 4px;
+        padding: 3px 40px 3px 40px;
+        bottom: 18px;
+        left: 1px;
+        background: indianred;
+        margin-bottom: 2px;
+        margin-left: 4px;
+        text-align: center;
+        color: white;
+    }
+    
+    #Fish {
+        float: right;
+        position: relative;
+        border: black solid 4px;
+        padding: 3px 40px 3px 40px;
+        bottom: 18px;
+        left: 1px;
+        background: lemonchiffon;
+        margin-bottom: 2px;
+        margin-left: 4px;
+        text-align: center;
+    }
+    
+    #Chicken {
+        float: right;
+        position: relative;
+        border: black solid 4px;
+        padding: 3px 40px 3px 40px;
+        bottom: 18px;
+        left: 1px;
+        background: darksalmon;
+        margin-bottom: 2px;
+        margin-left: 4px;
+    }
+    
+    .content {
+        clear: both;
+        width: 90%;
+        padding-left: 10px;
+        margin: 0px;
+    }
+    
+    .headline {
+        width: 138px;
+        font-family: Arial;
+    }
+    
+    @media (min-width:1600px) {
+        .container {
+            width: 32%;
+            float: left;
+        }
+    }
+    
+    @media (max-width:1600px) and (min-width:1020px) {
+        .col-lg-6 {
+            float: left;
+            width: 48%;
+        }
+        .col-lg-1 {
+            clear: left;
+            width: 97.5%;
+        }
+        =======* {
+            box-sizing: border-box;
+            font-family: ;
+        }
+        h1 {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .row {
+            width: 100%;
+            height: 0;
+            padding: 2px;
+        }
+        .container {
+            border: solid 4px black;
+            background: gray;
+            margin: 10px;
+            height: 180px;
+            font-size: 15px;
+        }
+        #Beef {
+            float: right;
+            position: relative;
+            border: black solid 4px;
+            padding: 3px 40px 3px 40px;
+            bottom: 18px;
+            left: 1px;
+            background: indianred;
+            margin-bottom: 2px;
+            margin-left: 4px;
+            text-align: center;
+            color: white;
+        }
+        #Fish {
+            float: right;
+            position: relative;
+            border: black solid 4px;
+            padding: 3px 40px 3px 40px;
+            bottom: 18px;
+            left: 1px;
+            background: lemonchiffon;
+            margin-bottom: 2px;
+            margin-left: 4px;
+            text-align: center;
+        }
+        #Chicken {
+            float: right;
+            position: relative;
+            border: black solid 4px;
+            padding: 3px 40px 3px 40px;
+            bottom: 18px;
+            left: 1px;
+            background: darksalmon;
+            margin-bottom: 2px;
+            margin-left: 4px;
+        }
+        .content {
+            clear: both;
+            width: 90%;
+            padding-left: 10px;
+            margin: 0px;
+        }
+        .headline {
+            width: 138px;
+            font-family: Arial;
+        }
+        @media (min-width:1600px) {
+            .container {
+                width: 32%;
+                float: left;
+            }
+        }
+        @media (max-width:1600px) and (min-width:1020px) {
+            .col-lg-6 {
+                float: left;
+                width: 48%;
+            }
+            .col-lg-1 {
+                clear: left;
+                width: 97.5%;
+            }
+        }
